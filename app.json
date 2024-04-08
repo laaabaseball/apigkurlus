@@ -7,7 +7,7 @@
   "env": {
     "GOVERSION": {
       "description": "Go version to use for application. Due to an existing issue, you need to specify the go version explicity through a command or environment variable. Check https://github.com/heroku/heroku-buildpack-go/issues/301#issuecomment-625249712",
-      "value": "1.18"
+      "value": "1.14"
     }
   }
 }
