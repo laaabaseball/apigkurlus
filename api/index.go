@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/trashhalo/reddit-rss/pkg/client"
+	"github.com/laaabaseball/apigkurlus/pkg/client"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
