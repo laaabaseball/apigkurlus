@@ -1,6 +1,6 @@
 module github.com/cameronstanley/go-reddit
 
-go 1.14
+go 1.18
 
 require (
 	github.com/jarcoal/httpmock v1.0.5
