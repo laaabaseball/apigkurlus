@@ -26,14 +26,13 @@ require (
 	github.com/stretchr/testify v1.6.1
 	github.com/victorspringer/http-cache v0.0.0-20190721184638-fe78e97af707
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
-	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect
-	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae // indirect
+	golang.org/x/net v0.22.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 	gotest.tools v2.2.0+incompatible
-	github.com/cameronstanley/go-reddit v0.0.0-20170423222116-4bfac7ea95af // indirect
 )
 
 // replace github.com/cameronstanley/go-reddit => ./pkg/reddit
+
