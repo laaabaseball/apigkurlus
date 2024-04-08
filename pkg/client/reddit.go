@@ -43,7 +43,7 @@ func RssHandler(redditURL string, now NowFn, client *http.Client, getArticle Get
 	ctx := r.Context()
 
 	if r.URL.String() == "/" {
-		http.Redirect(w, r, "https://www.reddit.com/r/rss/comments/fvg3ed/i_built_a_better_rss_feed_for_reddit/", 301)
+		http.Redirect(w, r, "https://gkurl.us", 301)
 		return
 	}
 
@@ -56,7 +56,7 @@ func RssHandler(redditURL string, now NowFn, client *http.Client, getArticle Get
 		return
 	}
 
-	req.Header.Add("User-Agent", "reddit-rss 1.0")
+	req.Header.Add("User-Agent", "aguvercel-view 1.0.0")
 
 	resp, err := client.Do(req)
 	if err != nil {
