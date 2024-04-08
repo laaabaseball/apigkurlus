@@ -11,7 +11,7 @@ import (
 
 	"github.com/getsentry/sentry-go"
 	sentryhttp "github.com/getsentry/sentry-go/http"
-	"github.com/trashhalo/reddit-rss/pkg/client"
+	"github.com/laaabaseball/apigkurlus/pkg/client"
 	cache "github.com/victorspringer/http-cache"
 	"github.com/victorspringer/http-cache/adapter/redis"
 )
