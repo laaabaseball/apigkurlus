@@ -1,4 +1,4 @@
-module github.com/trashhalo/reddit-rss
+module github.com/laaabaseball/apigkurlus
 
 go 1.14
 
@@ -33,6 +33,7 @@ require (
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 	gotest.tools v2.2.0+incompatible
+	github.com/cameronstanley/go-reddit v0.0.0-20170423222116-4bfac7ea95af // indirect
 )
 
-replace github.com/cameronstanley/go-reddit => ./pkg/reddit
+// replace github.com/cameronstanley/go-reddit => ./pkg/reddit
